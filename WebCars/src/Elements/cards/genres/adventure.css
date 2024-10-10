@@ -1,0 +1,43 @@
+.adventure-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* justify-content: center; */
+    margin-left: 30px;
+  }
+  
+  .card2 {
+    background-color: white;
+    border: 1px solid #ffffff;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); */
+    overflow: hidden;
+    width: 160px;
+    text-align: center;
+    height: 300px;
+    gap: 5px;
+  }
+  
+  .card-img {
+    width: 180px;
+    height: 200px;
+  }
+  
+  /* .card-content {
+    padding: 15px;
+  } */
+  
+  .card-head {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    padding-top: 10px;
+    height: 65px;
+    background-color: rgb(228, 231, 234);
+  }
+  
+  .card-cost {
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #c01c1c;
+  }
+  

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+/* body{
+  height: auto;
+  margin: 0;
+} */
+.tagline h2 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(28, 27, 27);
+  color: white;
+}
+
+.Adven h2 {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 23px;
+  padding-bottom: 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+.middle {
+  /* margin-top: 30px; */
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* .middle h1 {
+  font-size: xx-large;
+  font-weight: 800;
+  color:rgb(34, 31, 67);
+} */
+
+.middle .discount{
+  position: relative;
+  height: 300px;
+  width: 400px;
+}
+
+/* .middle h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color:rgb(255, 234, 0);
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: red;
+  width: 500px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px;
+} */
+
+
+.container-1 {
+  display: flex;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color:rgb(18, 16, 32);
+  
+}
+
+.container-1 .left {
+  padding: 20px;
+  width: 40%;
+  padding-left: 80px;
+}
+
+.container-1 .right {
+  padding: 20px;
+  width: 60%;
+}
+
+.container-1 .title {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 30px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.container-1 .author {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.container-1 .summary {
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+.container-1 .left img {
+  width: 250px;
+  height: 350px;
+}
+
+.purchase-button {
+  /* position: relative;
+  overflow: hidden; */
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.purchase-button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for container-2 */
+.container-2 {
+  display: flex;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color:rgb(34, 31, 67);
+}
+
+.container-2 .right {
+  padding: 20px;
+  width: 40%;
+  padding-left: 80px;
+}
+
+.container-2 .left {
+  padding: 20px;
+  width: 60%;
+  margin-left: 60px;
+}
+
+.container-2 .title {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.container-2 .author {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.container-2 .summary {
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-2 .right img {
+  width: 250px;
+  height: 350px;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  bottom: 0;
+  /* width: 100%; */
+  text-align: center;
+}
+
+/* CSS for Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  /* position: fixed; */
+  bottom: 0;
+  /* width: 100%; */
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
