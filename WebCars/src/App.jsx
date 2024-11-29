@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './Elements/NavBar/nav.jsx';
 import ImageSliders from './Elements/background/ImageSliders.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Purchase from './Elements/purchase.jsx';
+
 import BDE from './Elements/home.jsx/home.jsx';
 import Container1 from './Elements/home.jsx/Container1.jsx';
 import ProductPage from './Elements/NavBar/purchase.jsx';
